@@ -12,7 +12,7 @@ Pagina de presentación personal donde me presento y muestro las skills hard & s
 
 🧰 Tecnologías: Java, JavaScript, JSON, PHP, AJAX, SQL, MySQL, Oracle PL/SQL, MongoDB, CSS, HTML.
 
-🧰 Frameworks: Bootstrap 5, Angular, SASS, LESS, BootStrap, JQuery, NodeJS.
+🧰 Frameworks: Bootstrap 5, Angular, SASS, BootStrap, JQuery, NodeJS.
 
 🧰 Control de versiones: GitHub.
 
