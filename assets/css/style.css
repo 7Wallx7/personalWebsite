@@ -1,11 +1,6 @@
 @charset "UTF-8";
-html {
-  height:100%;
-}
 
-body {
-  margin:0;
-}
+
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
@@ -54,27 +49,12 @@ body {
 
 .tarjeta {
   max-width: 700px; 
-  min-height: 393.75px;
 }
 
  
 
-.nombre {
-  position: absolute;
-  text-align: center;
-  align-items:center ;
-  top: 12%;
-  left: 0%;
-  width: 750px;
-}
 
- .color{
-  background-color: red;
- }
 
- a:hover{
-  background-color: #ffc107;
- }
 
 
 
