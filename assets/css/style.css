@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
-
-
+*{
+  cursor: url("../icons/cursordefault.png"), auto;
+}
+*::selection{
+  color:#ffc107;
+}
+a{
+  cursor: url("../icons/cursorpointer.png"), auto;
+}
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
@@ -13,15 +20,25 @@
   top:0;
   z-index:-1;
 }
-
+.bgNegativo {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #000000 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
 .bg2 {
   animation-direction:alternate-reverse;
   animation-duration:4s;
 }
-
 .bg3 {
   animation-duration:5s;
 }
+
 
 .content {
   background-color:rgba(255,255,255,.8);
@@ -35,8 +52,6 @@
   top:50%;
   transform:translate(-50%, -50%);
 }
-
-
 @keyframes slide {
   0% {
     transform:translateX(-25%);
@@ -45,19 +60,14 @@
     transform:translateX(25%);
   }
 }
-
-
 .tarjeta {
   max-width: 700px; 
 }
 
- 
+.tarjetaFondo{
+  background-color: #1f1f1f;
 
-
-
-
-
-
+}
 .btn:hover {
    
   color:#ffc107;

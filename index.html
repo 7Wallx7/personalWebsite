@@ -1,53 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+<!--
+
+    ** Cambiar letra 
+    ** Cambiar Ico
+
+-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="bg-info bg-gradient text-light">
+<body class="text-white">
 
-
-    <div class="contenedor-flexbox   bg-opacity-50 bg-success rounded-4 border border-4 border-warning ">
-        <div>
-            <ul class="rounded-4">
-                <li><a class="active" href="https://www.bitdegree.org/" target="_blank">Inicio</a></li>
-                <li><a href="https://www.bitdegree.org/" target="_blank">Skills</a></li>
-                <li><a href="https://www.bitdegree.org/" target="_blank">Portafolio</a></li>
-                <li><a href="https://www.bitdegree.org/" target="_blank">Redes</a></li>
-                <li><a href="https://www.bitdegree.org/" target="_blank">Contacto</a></li>
+    <div class="bg "></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="m-0 vh-100 row justify-content-center align-items-center text-center  ">
+        <div
+            class="container  tarjeta   col-sm-8  shadow-lg   bg-info  bg-opacity-75 rounded-4 border border-4 border-warning ">
+            <ul
+                class="mt-2    nav justify-content-center bg-info shadow bg-gradientmt-2 rounded-4 border border-2  border-white ">
+                <li class="nav-item ">
+                    <a class="nav-link active link-warning text-white" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled link-warning text-white" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled link-warning text-white" href="#">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled link-warning text-white">Redes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled link-warning text-white ">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <div class="pt-2 form-check form-switch form-check-reverse">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                        <label class="form-check-label text-black" for="flexSwitchCheckReverse">Modo oscuro</label>
+                    </div>
+                </li>
             </ul>
-        </div>
 
-        <div class="nombre  ">
-            <h3>Alejandro Carrión </h3>
-        </div>
-        <div >
-            <img class="foto" src="assets/img/perfil.JPG" alt="Foto de Perfil">
-        </div>
-        <div class=" logo">
-            <img src="assets/img/pc-removebg-preview.png" alt="logo">
-        </div>
-        <div class="botones">
-            <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-primary" type="button">Portafolio</button>
+            <div class="row align-items-center mt-5 ">
+                <div class="col-sm-12  col-md-3 pb-3   ">
+                    <img class="text-center img-fluid  rounded-4 border border-4  border-success shadow-lg "
+                        src="assets/img/perfil.JPG" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6  pb-3 ">
+                    <img class="text-center img-fluid  " id="logo" src="assets/img/pc-removebg-preview.png" alt="logo">
+                </div>
+                <div class="col-sm-12  col-md-3  pb-3">
+                    <button type="button" class="btn btn-secondary">Portafolio</button>
+                </div>
+
             </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 ">
+                    <p>🔎Gran capacidad de toma de decisiones y solvento de problemas de forma creativa con el fin de
+                        obtener los objetivos deseados, adaptandome a los posibles escenarios que define nuestra
+                        profesión.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4 mb-2">
+                <div class="col-sm-12  col-md-2 offset-md-4 pb-3">
+                    <button type="button" class="btn btn-light"><a class=" link-warning  " href="#">Linked
+                            In</a></button>
+                </div>
+                <div class="col-sm-12  col-md-2 pb-3">
+                    <button type="button" class="btn btn-light"><a class=" link-warning  " href="#">GitHub</a></button>
+                </div>
+            </div>
+
+
         </div>
-        <div class=" enlaces">
-            <button type="button" class="btn btn-success">Redes</button>
-        </div>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-            crossorigin="anonymous"></script>
-
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
