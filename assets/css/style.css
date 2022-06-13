@@ -1,15 +1,63 @@
 @charset "UTF-8";
-
-.contenedor-flexbox {
-          position: absolute;
-       
-          top: 50%;
-          left:50%;
-          
-   transform: translate(-50%, -50%);
-   width: 750px;
-   height: 750px;
+html {
+  height:100%;
 }
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+.tarjeta {
+  max-width: 700px; 
+  min-height: 393.75px;
+}
+
+ 
 
 .nombre {
   position: absolute;
@@ -20,72 +68,18 @@
   width: 750px;
 }
 
+ .color{
+  background-color: red;
+ }
 
-ul {
-  text-align: center;
-  position: absolute;
-  top:0%;
-  left:50%;
-  transform: translate(-50%, 0%);
- list-style-type: none;
- width: 70%;
- margin: 3px;
- padding: 9px 17px;
- background-color: #4269d5;
-}
+ a:hover{
+  background-color: #ffc107;
+ }
 
-li {
- display: inline;
-}
 
-li a {
- color: white;
- padding: 9px 17px;
- text-decoration: none;
-}
 
-/* When the link is hovered on, its color will change */
-li a:hover {
- background-color: #0004ff;
- color:white;
-}
-
-.active { 
-color:#ffc107;
-}
-
-.foto{
-  position: absolute;
-  top: 45%;  
-  left: 15%; 
-  transform: translate(-50%, -50%);
-  border-radius: 15px;
-}
-.enlaces{
-  position: absolute;
-  text-align: center;
-  align-items:center ;
-   
-  top:97%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  
-}
-.botones{
-  position: absolute;
-  top: 45%;  
-  left: 80%; 
-  
-}
 .btn:hover {
    
   color:#ffc107;
  }
-.logo{
-  position: absolute;
-  top: 50%;  
-  left: 50%;
-  
-          
-  transform: translate(-50%, -50%);
-}
+
