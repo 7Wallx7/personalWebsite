@@ -3,7 +3,6 @@
 
 👨‍🎓 Técnico Superior en Desarrollo de Aplicaciones Webs.
 
-
 👨‍🎓 Desarrollador Web Full Stack .
 
 🧰 Tecnologías: Java, JavaScript, JSON, PHP, AJAX, SQL, MySQL, Oracle PL/SQL, MongoDB, CSS, HTML.
