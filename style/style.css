@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 *{
-  cursor: url("../icons/cursordefault.png"), auto;
+  cursor: url("../assets/icons/cursordefault.png"), auto;
 }
 *::selection{
   color:#ffc107;
   background-color:white;
 }
 .form-check-input,.form-check-label, a{
-  cursor: url("../icons/cursorpointer.png"), auto;
+  cursor: url("../assets/icons/cursorpointer.png"), auto;
 }
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
